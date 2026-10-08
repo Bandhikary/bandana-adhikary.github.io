@@ -1,0 +1,414 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bandana Adhikary</title>
+  <meta name="description" content="Bandana Adhikary — work, writing, and ways to connect. From Kathmandu, Nepal.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Manrope:wght@400;500;600;700&family=Kalam:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpath d='M10 70 Q25 66 32 50 L68 50 Q75 66 90 70 Z M20 46 Q32 43 38 30 L62 30 Q68 43 80 46 Z' fill='%23B4472F'/%3E%3Crect x='46' y='12' width='8' height='18' fill='%23C8922E'/%3E%3Crect x='34' y='70' width='32' height='20' fill='%23B4472F'/%3E%3C/svg%3E">
+</head>
+<body>
+
+  <div class="scroll-progress" aria-hidden="true"></div>
+  <header class="nav">
+    <a href="/" class="brand">Bandana Adhikary</a>
+    <nav>
+      <a href="/#about">About</a>
+      <a href="/work/">Work</a>
+      <a href="/blogs/">Blogs</a>
+      <a href="/hobbies/">Hobbies</a>
+      <a href="/#connect" class="nav-cta">Connect</a>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-text">
+        <p class="namaste" lang="ne">नमस्ते</p>
+        <h1>Hi, I'm Bandana.</h1>
+        <p class="tagline">[Your one-line intro — e.g. "I build partnerships and tell stories that move people."]</p>
+        <div class="hero-actions">
+          <a href="/work/" class="btn">See my work</a>
+          <a href="#connect" class="btn btn-ghost">Let's talk</a>
+        </div>
+      </div>
+
+      <!-- Kathmandu temple-city skyline -->
+      <svg class="skyline" viewBox="0 0 1200 340" preserveAspectRatio="xMidYMax slice" role="img" aria-label="Illustration of the Kathmandu valley: Himalayan peaks behind pagoda temples, Swayambhu stupa and a shikhara temple, with prayer flags overhead">
+        <defs>
+          <symbol id="pagoda3" viewBox="0 0 100 140">
+            <rect x="10" y="128" width="80" height="12" class="b-dark"/>
+            <rect x="18" y="118" width="64" height="10" class="b-mid"/>
+            <rect x="30" y="96" width="40" height="22" class="b-wall"/>
+            <rect x="45" y="104" width="10" height="14" class="b-door"/>
+            <path d="M8,98 Q20,95 28,80 L72,80 Q80,95 92,98 Z" class="b-roof"/>
+            <rect x="35" y="68" width="30" height="12" class="b-wall"/>
+            <path d="M16,70 Q26,67 32,54 L68,54 Q74,67 84,70 Z" class="b-roof"/>
+            <rect x="39" y="44" width="22" height="10" class="b-wall"/>
+            <path d="M24,46 Q32,43 36,32 L64,32 Q68,43 76,46 Z" class="b-roof"/>
+            <rect x="48" y="18" width="4" height="14" class="b-gold"/>
+            <circle cx="50" cy="16" r="3.5" class="b-gold"/>
+          </symbol>
+          <symbol id="house" viewBox="0 0 60 70">
+            <rect x="0" y="14" width="60" height="56" class="b-house"/>
+            <path d="M-4,16 L64,16 L56,4 L4,4 Z" class="b-roof"/>
+            <rect x="10" y="28" width="10" height="12" class="b-door"/>
+            <rect x="25" y="28" width="10" height="12" class="b-door"/>
+            <rect x="40" y="28" width="10" height="12" class="b-door"/>
+            <rect x="24" y="50" width="12" height="20" class="b-door"/>
+          </symbol>
+        </defs>
+
+        <!-- sun -->
+        <circle cx="980" cy="110" r="70" class="sun-halo"/>
+        <circle cx="980" cy="110" r="46" class="sun"/>
+
+        <!-- drifting clouds -->
+        <g class="cloud cloud-1" style="--cy:130px"><ellipse cx="0" cy="0" rx="46" ry="12"/><ellipse cx="-16" cy="-8" rx="22" ry="12"/><ellipse cx="14" cy="-10" rx="26" ry="14"/></g>
+        <g class="cloud cloud-2" style="--cy:95px"><ellipse cx="0" cy="0" rx="36" ry="9"/><ellipse cx="-10" cy="-7" rx="18" ry="10"/><ellipse cx="12" cy="-6" rx="18" ry="9"/></g>
+        <g class="cloud cloud-3" style="--cy:150px"><ellipse cx="0" cy="0" rx="54" ry="13"/><ellipse cx="-20" cy="-9" rx="24" ry="13"/><ellipse cx="18" cy="-12" rx="30" ry="15"/></g>
+
+        <!-- Himalaya -->
+        <g class="parallax" data-speed="0.12">
+          <path class="mtn-far" d="M0,230 L90,170 L150,195 L240,120 L310,175 L380,140 L470,200 L560,130 L640,180 L720,95 L800,165 L880,135 L960,190 L1050,120 L1130,170 L1200,145 L1200,380 L0,380 Z"/>
+          <path class="snow" d="M240,120 L262,138 L250,136 L240,146 L230,137 L218,140 Z M720,95 L746,118 L732,115 L720,127 L708,116 L694,120 Z M1050,120 L1072,138 L1060,136 L1050,145 L1040,137 L1028,140 Z M560,130 L578,145 L568,144 L560,152 L552,145 L542,147 Z"/>
+        </g>
+        <g class="parallax" data-speed="0.06">
+          <path class="mtn-near" d="M0,270 L120,225 L260,250 L420,215 L600,245 L780,220 L960,250 L1100,225 L1200,240 L1200,380 L0,380 Z"/>
+        </g>
+
+        <!-- birds (pigeons of Durbar Square) -->
+        <g class="birds">
+          <g transform="translate(0,0) scale(1.5)"><g class="pigeon" style="--d:0s">
+            <path class="wing wing-far" d="M0,-2 Q-1,-9 -5,-15 L-2.5,-14 L-3.5,-17 L0,-14 L0,-16.5 L2.5,-12.5 Q5.5,-8 7,-2 Z"/>
+            <path class="bird-body" d="M-9,-1 L-16.5,-4.2 Q-19.5,0 -16.5,4.2 L-9,2 Q0,5.2 8.5,2 Q12.5,0.6 14.6,-1.5 L16.8,-2.1 L15,-2.8 Q15.4,-4.6 13.4,-5.6 Q11,-6.2 9.8,-4.3 Q8.6,-3 5,-3 Q-2,-3.8 -9,-1 Z"/>
+            <path class="wing wing-near" d="M-3,-2 Q-6,-9 -12,-17 L-9,-16 L-11.5,-19.5 L-6.5,-16.5 L-7.5,-20 L-3,-15.5 L-2.5,-17.5 L0.5,-13 Q4,-8 6,-2 Z"/>
+          </g></g>
+          <g transform="translate(50,-24) scale(1.2)"><g class="pigeon" style="--d:-.35s">
+            <path class="wing wing-far" d="M0,-2 Q-1,-9 -5,-15 L-2.5,-14 L-3.5,-17 L0,-14 L0,-16.5 L2.5,-12.5 Q5.5,-8 7,-2 Z"/>
+            <path class="bird-body" d="M-9,-1 L-16.5,-4.2 Q-19.5,0 -16.5,4.2 L-9,2 Q0,5.2 8.5,2 Q12.5,0.6 14.6,-1.5 L16.8,-2.1 L15,-2.8 Q15.4,-4.6 13.4,-5.6 Q11,-6.2 9.8,-4.3 Q8.6,-3 5,-3 Q-2,-3.8 -9,-1 Z"/>
+            <path class="wing wing-near" d="M-3,-2 Q-6,-9 -12,-17 L-9,-16 L-11.5,-19.5 L-6.5,-16.5 L-7.5,-20 L-3,-15.5 L-2.5,-17.5 L0.5,-13 Q4,-8 6,-2 Z"/>
+          </g></g>
+          <g transform="translate(-45,-36) scale(1.05)"><g class="pigeon" style="--d:-.7s">
+            <path class="wing wing-far" d="M0,-2 Q-1,-9 -5,-15 L-2.5,-14 L-3.5,-17 L0,-14 L0,-16.5 L2.5,-12.5 Q5.5,-8 7,-2 Z"/>
+            <path class="bird-body" d="M-9,-1 L-16.5,-4.2 Q-19.5,0 -16.5,4.2 L-9,2 Q0,5.2 8.5,2 Q12.5,0.6 14.6,-1.5 L16.8,-2.1 L15,-2.8 Q15.4,-4.6 13.4,-5.6 Q11,-6.2 9.8,-4.3 Q8.6,-3 5,-3 Q-2,-3.8 -9,-1 Z"/>
+            <path class="wing wing-near" d="M-3,-2 Q-6,-9 -12,-17 L-9,-16 L-11.5,-19.5 L-6.5,-16.5 L-7.5,-20 L-3,-15.5 L-2.5,-17.5 L0.5,-13 Q4,-8 6,-2 Z"/>
+          </g></g>
+          <g transform="translate(88,8) scale(.9)"><g class="pigeon" style="--d:-.2s">
+            <path class="wing wing-far" d="M0,-2 Q-1,-9 -5,-15 L-2.5,-14 L-3.5,-17 L0,-14 L0,-16.5 L2.5,-12.5 Q5.5,-8 7,-2 Z"/>
+            <path class="bird-body" d="M-9,-1 L-16.5,-4.2 Q-19.5,0 -16.5,4.2 L-9,2 Q0,5.2 8.5,2 Q12.5,0.6 14.6,-1.5 L16.8,-2.1 L15,-2.8 Q15.4,-4.6 13.4,-5.6 Q11,-6.2 9.8,-4.3 Q8.6,-3 5,-3 Q-2,-3.8 -9,-1 Z"/>
+            <path class="wing wing-near" d="M-3,-2 Q-6,-9 -12,-17 L-9,-16 L-11.5,-19.5 L-6.5,-16.5 L-7.5,-20 L-3,-15.5 L-2.5,-17.5 L0.5,-13 Q4,-8 6,-2 Z"/>
+          </g></g>
+          <g transform="translate(18,-60) scale(.8)"><g class="pigeon" style="--d:-.95s">
+            <path class="wing wing-far" d="M0,-2 Q-1,-9 -5,-15 L-2.5,-14 L-3.5,-17 L0,-14 L0,-16.5 L2.5,-12.5 Q5.5,-8 7,-2 Z"/>
+            <path class="bird-body" d="M-9,-1 L-16.5,-4.2 Q-19.5,0 -16.5,4.2 L-9,2 Q0,5.2 8.5,2 Q12.5,0.6 14.6,-1.5 L16.8,-2.1 L15,-2.8 Q15.4,-4.6 13.4,-5.6 Q11,-6.2 9.8,-4.3 Q8.6,-3 5,-3 Q-2,-3.8 -9,-1 Z"/>
+            <path class="wing wing-near" d="M-3,-2 Q-6,-9 -12,-17 L-9,-16 L-11.5,-19.5 L-6.5,-16.5 L-7.5,-20 L-3,-15.5 L-2.5,-17.5 L0.5,-13 Q4,-8 6,-2 Z"/>
+          </g></g>
+        </g>
+
+        <!-- prayer flags -->
+        <g class="flag-line">
+          <path class="flag-string" d="M0,40 Q300,110 600,60 Q900,10 1200,70"/>
+          <g class="flags">
+            <rect x="40"  y="45" width="18" height="22" class="f-blue"/>
+            <rect x="90"  y="55" width="18" height="22" class="f-white"/>
+            <rect x="140" y="64" width="18" height="22" class="f-red"/>
+            <rect x="190" y="71" width="18" height="22" class="f-green"/>
+            <rect x="240" y="76" width="18" height="22" class="f-yellow"/>
+            <rect x="290" y="79" width="18" height="22" class="f-blue"/>
+            <rect x="340" y="80" width="18" height="22" class="f-white"/>
+            <rect x="390" y="79" width="18" height="22" class="f-red"/>
+            <rect x="440" y="76" width="18" height="22" class="f-green"/>
+            <rect x="490" y="71" width="18" height="22" class="f-yellow"/>
+            <rect x="540" y="66" width="18" height="22" class="f-blue"/>
+            <rect x="592" y="60" width="18" height="22" class="f-white"/>
+            <rect x="660" y="51" width="18" height="22" class="f-red"/>
+            <rect x="710" y="44" width="18" height="22" class="f-green"/>
+            <rect x="760" y="39" width="18" height="22" class="f-yellow"/>
+            <rect x="810" y="36" width="18" height="22" class="f-blue"/>
+            <rect x="860" y="35" width="18" height="22" class="f-white"/>
+            <rect x="910" y="37" width="18" height="22" class="f-red"/>
+            <rect x="960" y="40" width="18" height="22" class="f-green"/>
+            <rect x="1010" y="43" width="18" height="22" class="f-yellow"/>
+            <rect x="1060" y="52" width="18" height="22" class="f-blue"/>
+            <rect x="1110" y="59" width="18" height="22" class="f-white"/>
+            <rect x="1160" y="66" width="18" height="22" class="f-red"/>
+          </g>
+        </g>
+
+        <!-- background houses -->
+        <use href="#house" x="20"   y="270" width="60" height="70"/>
+        <use href="#house" x="330"  y="262" width="70" height="78"/>
+        <use href="#house" x="470"  y="275" width="50" height="65"/>
+        <use href="#house" x="690"  y="268" width="60" height="72"/>
+        <use href="#house" x="1000" y="266" width="66" height="74"/>
+        <use href="#house" x="1140" y="274" width="56" height="66"/>
+
+        <!-- Swayambhu stupa -->
+        <g class="stupa">
+          <rect x="170" y="318" width="160" height="22" class="b-dark"/>
+          <rect x="180" y="306" width="140" height="12" class="b-mid"/>
+          <path d="M188,306 A62,52 0 0 1 312,306 Z" class="dome"/>
+          <rect x="228" y="232" width="44" height="24" class="b-gold"/>
+          <path d="M234,242 q5,-5 10,0 M256,242 q5,-5 10,0" class="eyes"/>
+          <path d="M235,244 q4,3 8,0 M257,244 q4,3 8,0" class="eyes"/>
+          <path d="M250,247 q-3,3 0,5" class="eyes"/>
+          <path d="M232,232 L268,232 L257,176 L243,176 Z" class="b-gold"/>
+          <path d="M235,220 H265 M237,208 H263 M239,196 H261 M241,186 H259" class="rings"/>
+          <path d="M234,176 L266,176 L256,164 L244,164 Z" class="b-gold"/>
+          <rect x="248" y="148" width="4" height="16" class="b-gold"/>
+          <circle cx="250" cy="146" r="4" class="b-gold"/>
+        </g>
+
+        <!-- small pagodas -->
+        <use href="#pagoda3" x="400"  y="214" width="90" height="126"/>
+        <use href="#pagoda3" x="1060" y="200" width="100" height="140"/>
+        <use href="#pagoda3" x="88"   y="236" width="76" height="104"/>
+
+        <!-- Five-tier pagoda (Nyatapola) -->
+        <g class="nyatapola">
+          <rect x="520" y="325" width="160" height="15" class="b-dark"/>
+          <rect x="532" y="312" width="136" height="13" class="b-mid"/>
+          <rect x="544" y="300" width="112" height="12" class="b-dark"/>
+          <rect x="556" y="289" width="88"  height="11" class="b-mid"/>
+          <rect x="566" y="279" width="68"  height="10" class="b-dark"/>
+          <rect x="574" y="255" width="52"  height="24" class="b-wall"/>
+          <rect x="594" y="262" width="12"  height="17" class="b-door"/>
+          <path d="M546,257 Q560,254 572,236 L628,236 Q640,254 654,257 Z" class="b-roof"/>
+          <rect x="580" y="224" width="40" height="12" class="b-wall"/>
+          <path d="M554,226 Q566,223 578,208 L622,208 Q634,223 646,226 Z" class="b-roof"/>
+          <rect x="585" y="198" width="30" height="10" class="b-wall"/>
+          <path d="M561,200 Q572,197 583,184 L617,184 Q628,197 639,200 Z" class="b-roof"/>
+          <rect x="589" y="176" width="22" height="8" class="b-wall"/>
+          <path d="M567,178 Q577,175 587,163 L613,163 Q623,175 633,178 Z" class="b-roof"/>
+          <rect x="592" y="156" width="16" height="7" class="b-wall"/>
+          <path d="M573,158 Q582,155 591,144 L609,144 Q618,155 627,158 Z" class="b-roof"/>
+          <rect x="598" y="124" width="4" height="20" class="b-gold"/>
+          <circle cx="600" cy="130" r="4" class="b-gold"/>
+          <circle cx="600" cy="120" r="3" class="b-gold"/>
+        </g>
+
+        <!-- Shikhara temple (Krishna Mandir style) -->
+        <g class="shikhara">
+          <rect x="840" y="322" width="120" height="18" class="b-dark"/>
+          <rect x="852" y="308" width="96" height="14" class="b-mid"/>
+          <rect x="864" y="268" width="72" height="40" class="b-stone"/>
+          <path d="M872,276 v28 M886,276 v28 M900,276 v28 M914,276 v28 M928,276 v28" class="pillars"/>
+          <path d="M858,268 C858,250 864,240 868,232 C872,240 878,250 878,268 Z" class="b-stone"/>
+          <path d="M922,268 C922,250 928,240 932,232 C936,240 942,250 942,268 Z" class="b-stone"/>
+          <path d="M880,268 C880,214 892,182 900,160 C908,182 920,214 920,268 Z" class="b-stone"/>
+          <path d="M886,240 H914 M890,214 H910 M894,190 H906" class="pillars"/>
+          <rect x="898" y="140" width="4" height="20" class="b-gold"/>
+          <circle cx="900" cy="138" r="4" class="b-gold"/>
+        </g>
+
+        <!-- ground -->
+        <rect x="0" y="336" width="1200" height="4" class="b-dark"/>
+      </svg>
+    </section>
+
+    <div class="dhaka-band" aria-hidden="true"></div>
+
+    <!-- ABOUT -->
+    <section id="about" class="section about reveal">
+      <!-- To add your photo: replace the photo-ph div with <img src="/photo.jpg" alt="Bandana Adhikary"> -->
+      <figure class="photo-frame" data-reveal="rise">
+        <div class="photo-ph"><span>BA</span><small>[Your photo]</small></div>
+      </figure>
+      <div>
+        <h2>A little about me</h2>
+        <p>[Two or three short paragraphs about who you are, what you do, and what you care about. Mention where you're from — Kathmandu — and what drives your work.]</p>
+        <p>[What you're focused on right now, and the kinds of people or projects you'd love to connect with.]</p>
+        <ul class="facts">
+          <li><span>Based in</span> Kathmandu, Nepal</li>
+          <li><span>Focus</span> [Your field]</li>
+          <li><span>Currently</span> [Role / organisation]</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- TEN -->
+    <section id="ten" class="ten-band">
+      <div class="section ten reveal">
+        <!-- To add a photo of TEN's work: replace the ten-photo-ph div with <img src="/images/ten-work.jpg" alt="TEN Foundation activity"> -->
+        <figure class="ten-photo">
+          <div class="ten-photo-ph"><span>[Photo of TEN's work]</span></div>
+        </figure>
+        <div class="ten-text">
+          <div class="ten-head">
+            <img src="/images/ten-logo.png" alt="" class="ten-logo" aria-hidden="true">
+            <h2>Founder of TEN</h2>
+          </div>
+          <p class="ten-ne">Transforming Education In Nepal · <span lang="ne">शैक्षिक रूपान्तरण नेपाल</span></p>
+          <p>I founded the TEN Foundation to help Nepal's most vulnerable children with protection, education and support — through child sponsorships in government schools, reading clubs, skill workshops and sports camps.</p>
+          <ul class="ten-pills">
+            <li>Sponsor a child</li><li>Volunteer</li><li>Charity events</li>
+          </ul>
+          <a href="https://ten.org.np/?i=1" class="btn" target="_blank" rel="noopener">Visit ten.org.np to learn more ⟶</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK -->
+    <section id="work" class="section reveal">
+      <div class="section-head">
+        <h2>Selected work</h2>
+        <a href="/work/" class="see-all">All work →</a>
+      </div>
+      <div class="cards">
+        <a href="/work/project-one.html" class="card card-media">
+          <div class="card-art" aria-hidden="true"></div>
+          <p class="card-tag">[Category]</p>
+          <h3>[Project title]</h3>
+          <p>[One or two lines on what it was, your role, and the outcome.]</p>
+          <span class="card-link">Read more →</span>
+        </a>
+        <a href="/work/project-one.html" class="card card-media">
+          <div class="card-art" aria-hidden="true"></div>
+          <p class="card-tag">[Category]</p>
+          <h3>[Project title]</h3>
+          <p>[One or two lines on what it was, your role, and the outcome.]</p>
+          <span class="card-link">Read more →</span>
+        </a>
+        <a href="/work/project-one.html" class="card card-media">
+          <div class="card-art" aria-hidden="true"></div>
+          <p class="card-tag">[Category]</p>
+          <h3>[Project title]</h3>
+          <p>[One or two lines on what it was, your role, and the outcome.]</p>
+          <span class="card-link">Read more →</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- BLOGS -->
+    <section id="blogs" class="section reveal">
+      <div class="section-head">
+        <h2>Latest blogs</h2>
+        <a href="/blogs/" class="see-all">All blogs →</a>
+      </div>
+        <div class="bposts">
+          <a href="/blogs/first-blog.html" class="bpost">
+            <div class="bpost-img card-art" aria-hidden="true"><span class="bpost-cat">[Category]</span></div>
+            <div class="bpost-body">
+              <p class="bpost-date"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><time datetime="2026-09-27">[2026-09-27]</time></p>
+              <h3 class="bpost-title">[Blog title 1 — a title that can run long and gets trimmed neatly]</h3>
+              <p class="bpost-excerpt">[A short summary of what this blog is about. Two lines at most, then it fades out with an ellipsis so every card stays the same height.]</p>
+              <p class="bpost-author"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="10" r="3"/><path d="M6.5 18.5c1.2-2.3 3.2-3.5 5.5-3.5s4.3 1.2 5.5 3.5"/></svg>Bandana Adhikary</p>
+              <span class="bpost-more">Read More <span aria-hidden="true">⟶</span></span>
+            </div>
+          </a>
+          <a href="/blogs/first-blog.html" class="bpost">
+            <div class="bpost-img card-art" aria-hidden="true"><span class="bpost-cat">[Category]</span></div>
+            <div class="bpost-body">
+              <p class="bpost-date"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><time datetime="2026-09-27">[2026-09-27]</time></p>
+              <h3 class="bpost-title">[Blog title 2 — a title that can run long and gets trimmed neatly]</h3>
+              <p class="bpost-excerpt">[A short summary of what this blog is about. Two lines at most, then it fades out with an ellipsis so every card stays the same height.]</p>
+              <p class="bpost-author"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="10" r="3"/><path d="M6.5 18.5c1.2-2.3 3.2-3.5 5.5-3.5s4.3 1.2 5.5 3.5"/></svg>Bandana Adhikary</p>
+              <span class="bpost-more">Read More <span aria-hidden="true">⟶</span></span>
+            </div>
+          </a>
+        </div>
+    </section>
+    <!-- HOBBIES -->
+    <section id="hobbies" class="hobbies-band">
+      <div class="section reveal">
+        <div class="section-head">
+          <h2>Hobbies</h2>
+          <a href="/hobbies/" class="see-all">All hobbies →</a>
+        </div>
+        <p class="lead">[A line about what you love doing outside work — e.g. When I'm not working, you'll usually find me with a paintbrush.]</p>
+        <h3 class="sub-head">Painting</h3>
+        <div class="paintings">
+          <button class="painting" type="button"
+            data-title="[Painting title 1]"
+            data-meta="[Medium, e.g. Acrylic on canvas] · [Year]"
+            data-desc="[Two or three sentences about this painting — what inspired it, where you were, or what you hoped to capture. Keep it personal and short.]">
+            <span class="painting-frame"><span class="paint-ph"><span>[Your painting]</span></span></span>
+            <span class="painting-title">[Painting title 1]</span>
+          </button>
+          <button class="painting" type="button"
+            data-title="[Painting title 2]"
+            data-meta="[Medium, e.g. Acrylic on canvas] · [Year]"
+            data-desc="[Two or three sentences about this painting — what inspired it, where you were, or what you hoped to capture. Keep it personal and short.]">
+            <span class="painting-frame"><span class="paint-ph"><span>[Your painting]</span></span></span>
+            <span class="painting-title">[Painting title 2]</span>
+          </button>
+          <button class="painting" type="button"
+            data-title="[Painting title 3]"
+            data-meta="[Medium, e.g. Acrylic on canvas] · [Year]"
+            data-desc="[Two or three sentences about this painting — what inspired it, where you were, or what you hoped to capture. Keep it personal and short.]">
+            <span class="painting-frame"><span class="paint-ph"><span>[Your painting]</span></span></span>
+            <span class="painting-title">[Painting title 3]</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONNECT -->
+    <section id="connect" class="section connect reveal">
+      <h2>Let's work together</h2>
+      <p>I'm always happy to hear about new ideas, collaborations and conversations.</p>
+      <div class="bcard-wrap" data-reveal="flip">
+        <div class="bcard">
+          <span class="bcard-shine" aria-hidden="true"></span>
+          <span class="bcard-stripe" aria-hidden="true"></span>
+          <svg class="bcard-mark" viewBox="0 0 100 140" aria-hidden="true">
+            <rect x="10" y="128" width="80" height="12" class="b-dark"/><rect x="30" y="96" width="40" height="32" class="b-wall"/>
+            <path d="M8,98 Q20,95 28,80 L72,80 Q80,95 92,98 Z" class="b-roof"/><rect x="35" y="68" width="30" height="12" class="b-wall"/>
+            <path d="M16,70 Q26,67 32,54 L68,54 Q74,67 84,70 Z" class="b-roof"/><rect x="39" y="44" width="22" height="10" class="b-wall"/>
+            <path d="M24,46 Q32,43 36,32 L64,32 Q68,43 76,46 Z" class="b-roof"/><rect x="48" y="18" width="4" height="14" class="b-gold"/><circle cx="50" cy="16" r="3.5" class="b-gold"/>
+          </svg>
+          <div class="bcard-id">
+            <p class="bcard-name">Bandana Adhikary</p>
+            <p class="bcard-role">[Your title / role]</p>
+            <p class="bcard-place"><span lang="ne">काठमाडौं, नेपाल</span> · Kathmandu, Nepal</p>
+          </div>
+          <ul class="bcard-links">
+            <li><a href="mailto:[your-email]"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="3" class="ic-fill"/><path d="M5 8l7 5 7-5" fill="none" class="ic-stroke"/></svg><span>[your@email.com]</span></a></li>
+            <li><a href="https://www.linkedin.com/in/[your-linkedin]" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="4" class="ic-fill"/><circle cx="7.5" cy="7.5" r="1.6" class="ic-ink"/><rect x="6.2" y="10" width="2.6" height="8" class="ic-ink"/><path d="M11 10h2.5v1.2c.5-.8 1.5-1.4 2.8-1.4 2 0 3 1.3 3 3.6V18h-2.6v-4.2c0-1.1-.4-1.7-1.3-1.7-1 0-1.8.7-1.8 1.9v4H11z" class="ic-ink"/></svg><span>linkedin.com/in/[your-handle]</span></a></li>
+            <li><a href="https://www.instagram.com/[your-instagram]" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="6" class="ic-fill"/><circle cx="12" cy="12" r="4.2" fill="none" class="ic-stroke"/><circle cx="17.3" cy="6.7" r="1.2" class="ic-ink"/></svg><span>@[your-handle]</span></a></li>
+            <li><a href="https://bandanaadhikary.com.np"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" class="ic-fill"/><path d="M2.5 12h19M12 2.5c3 3 3 16 0 19M12 2.5c-3 3-3 16 0 19" fill="none" class="ic-stroke" style="stroke-width:1.4"/></svg><span>bandanaadhikary.com.np</span></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="hero-actions bcard-actions">
+        <a href="mailto:[your-email]" class="btn">Email me</a>
+        <a href="#" class="btn btn-ghost" id="save-contact" download="Bandana-Adhikary.vcf">Save contact</a>
+      </div>
+    </section>
+  </main>
+  <dialog class="lightbox" aria-label="Painting">
+    <button class="lb-close" type="button" aria-label="Close">×</button>
+    <button class="lb-nav lb-prev" type="button" aria-label="Previous painting">‹</button>
+    <button class="lb-nav lb-next" type="button" aria-label="Next painting">›</button>
+    <figure>
+      <div class="lb-art"></div>
+      <figcaption>
+        <h3 class="lb-title"></h3>
+        <p class="lb-meta"></p>
+        <p class="lb-desc"></p>
+      </figcaption>
+    </figure>
+  </dialog>
+
+  <footer class="footer">
+    <div class="dhaka-band" aria-hidden="true"></div>
+    <div class="footer-inner">
+      <p>© <span id="year">2026</span> Bandana Adhikary · Made in Kathmandu <span lang="ne">🙏</span></p>
+      <div class="socials">
+        <a href="https://www.linkedin.com/in/[your-linkedin]" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="4" class="ic-fill"/><circle cx="7.5" cy="7.5" r="1.6" class="ic-ink"/><rect x="6.2" y="10" width="2.6" height="8" class="ic-ink"/><path d="M11 10h2.5v1.2c.5-.8 1.5-1.4 2.8-1.4 2 0 3 1.3 3 3.6V18h-2.6v-4.2c0-1.1-.4-1.7-1.3-1.7-1 0-1.8.7-1.8 1.9v4H11z" class="ic-ink"/></svg></a>
+        <a href="https://www.instagram.com/[your-instagram]" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="6" class="ic-fill"/><circle cx="12" cy="12" r="4.2" fill="none" class="ic-stroke"/><circle cx="17.3" cy="6.7" r="1.2" class="ic-ink"/></svg></a>
+        <a href="mailto:[your-email]" aria-label="Email"><svg viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="3" class="ic-fill"/><path d="M5 8l7 5 7-5" fill="none" class="ic-stroke"/></svg></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/site.js" defer></script>
+</body>
+</html>
