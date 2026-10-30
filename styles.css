@@ -921,3 +921,14 @@ body { background: linear-gradient(180deg, var(--bg) 0%, color-mix(in srgb, var(
   .about .photo-frame { width: 200px; }
   .about .photo-frame img { min-height: 0; aspect-ratio: 4 / 5; height: auto; }
 }
+
+/* About: the text sets the section height; the whole photo fits inside that box */
+.about { grid-template-columns: 300px 1fr; align-items: stretch; }
+.about .photo-frame { position: relative; display: block; padding: 0; min-height: 0; }
+.about .photo-frame img {
+  position: absolute; inset: 8px; width: calc(100% - 16px); height: calc(100% - 16px);
+  min-height: 0; aspect-ratio: auto; object-fit: contain; background: #fff;
+}
+@media (max-width: 720px) {
+  .about .photo-frame { width: 220px; aspect-ratio: 614 / 626; }
+}
