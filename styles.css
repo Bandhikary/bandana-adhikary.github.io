@@ -911,3 +911,13 @@ body { background: linear-gradient(180deg, var(--bg) 0%, color-mix(in srgb, var(
 
 .photo-frame img { object-position: 50% 20%; }
 .photo-frame img { height: auto; aspect-ratio: 4 / 5; }
+
+/* About: photo matches the height of the text beside it */
+.about { grid-template-columns: 240px 1fr; align-items: stretch; gap: 40px; }
+.about .photo-frame { display: flex; padding: 8px; }
+.about .photo-frame img { height: 100%; width: 100%; aspect-ratio: auto; min-height: 260px; object-fit: cover; object-position: 50% 25%; }
+@media (max-width: 720px) {
+  .about { grid-template-columns: 1fr; }
+  .about .photo-frame { width: 200px; }
+  .about .photo-frame img { min-height: 0; aspect-ratio: 4 / 5; height: auto; }
+}
