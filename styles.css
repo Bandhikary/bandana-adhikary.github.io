@@ -932,3 +932,8 @@ body { background: linear-gradient(180deg, var(--bg) 0%, color-mix(in srgb, var(
 @media (max-width: 720px) {
   .about .photo-frame { width: 220px; aspect-ratio: 614 / 626; }
 }
+
+/* About: broader photo */
+.about { grid-template-columns: 380px 1fr; }
+.about .photo-frame img { object-fit: cover; object-position: 50% 30%; }
+@media (max-width: 900px) { .about { grid-template-columns: 300px 1fr; } }
