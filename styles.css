@@ -957,3 +957,9 @@ body { background: linear-gradient(180deg, var(--bg) 0%, color-mix(in srgb, var(
 
 /* Show full blog titles (wrap instead of cutting off) */
 .bpost-title { white-space: normal; overflow: visible; text-overflow: clip; }
+
+/* Blog cards: full title and full summary, slightly smaller text */
+.bpost .bpost-title { font-size: 1.05rem; line-height: 1.35; white-space: normal; overflow: visible; text-overflow: clip; }
+.bpost .bpost-excerpt { font-size: .92rem; line-height: 1.55; display: block; -webkit-line-clamp: unset; overflow: visible; }
+.bpost .bpost-date, .bpost .bpost-author { font-size: .88rem; }
+.bpost .bpost-more { font-size: .95rem; }
