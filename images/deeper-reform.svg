@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="t">
+  <title id="t">Illustration: children sit stiffly in rows facing a blackboard that reads "Memorize it by heart", while one child turns to the open window where a kite and birds fly over the hills.</title>
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F3E7D3"/><stop offset="1" stop-color="#E7D3B6"/></linearGradient>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7EC3EE"/><stop offset="1" stop-color="#CDEBFA"/></linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B97A4C"/><stop offset="1" stop-color="#8E5532"/></linearGradient>
+    <g id="kid">
+      <rect x="-30" y="40" width="60" height="70" rx="14" fill="#2F5D8A"/>
+      <rect x="-6" y="28" width="12" height="16" fill="#B87A52"/>
+      <circle cx="0" cy="12" r="24" fill="#1E120C"/>
+      <path d="M-24,10 Q-26,40 -16,48 M24,10 Q26,40 16,48" stroke="#1E120C" stroke-width="6" fill="none" stroke-linecap="round"/>
+    </g>
+    <g id="desk">
+      <rect x="-110" y="0" width="220" height="16" rx="3" fill="#7A4A2A"/>
+      <rect x="-100" y="16" width="10" height="60" fill="#5E3820"/><rect x="90" y="16" width="10" height="60" fill="#5E3820"/>
+    </g>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#wall)"/>
+  <rect y="520" width="1200" height="155" fill="url(#floor)"/>
+  <rect y="512" width="1200" height="10" fill="#6E4024"/>
+
+  <!-- blackboard -->
+  <rect x="300" y="70" width="560" height="270" rx="10" fill="#6B3A22"/>
+  <rect x="316" y="86" width="528" height="238" rx="6" fill="#28473A"/>
+  <text x="580" y="170" text-anchor="middle" font-family="Kalam, 'Comic Sans MS', cursive" font-size="44" fill="#F3F1E8">Memorize it by heart!</text>
+  <text x="580" y="226" text-anchor="middle" font-family="Kalam, 'Comic Sans MS', cursive" font-size="28" fill="#E9E3C8" opacity=".85">Q1. Define... (copy from book)</text>
+  <path d="M370 262 H520 M370 288 H470 M620 262 H790 M620 288 H740" stroke="#E9E3C8" stroke-width="5" stroke-linecap="round" opacity=".6"/>
+  <rect x="340" y="324" width="480" height="10" rx="3" fill="#7A4A2A"/>
+  <rect x="380" y="316" width="30" height="8" rx="2" fill="#F3F1E8"/>
+
+  <!-- clock -->
+  <circle cx="160" cy="130" r="44" fill="#FFFDF8" stroke="#6B3A22" stroke-width="6"/>
+  <path d="M160 130 V100 M160 130 L182 142" stroke="#1E2A38" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- window with the world outside -->
+  <rect x="930" y="80" width="220" height="280" rx="6" fill="#6B3A22"/>
+  <rect x="944" y="94" width="192" height="252" fill="url(#sky)"/>
+  <path d="M944 300 L990 250 L1030 280 L1080 230 L1136 270 V346 H944Z" fill="#7FB46B"/>
+  <path d="M944 320 Q1040 290 1136 316 V346 H944Z" fill="#5E9A55"/>
+  <circle cx="1100" cy="136" r="18" fill="#FFE08A"/>
+  <path d="M985 150 l-14 -10 M985 150 l14 -10 M1010 128 l-10 -7 M1010 128 l10 -7" stroke="#1E2A38" stroke-width="3" stroke-linecap="round"/>
+  <g transform="translate(1060,190) rotate(12)">
+    <path d="M0 -26 L20 0 L0 26 L-20 0Z" fill="#E8433A"/><path d="M0 -26 V26 M-20 0 H20" stroke="#8C1F17" stroke-width="2"/>
+    <path d="M0 26 q-8 10 0 20 q8 10 0 20" stroke="#F6B82A" stroke-width="4" fill="none"/>
+  </g>
+  <path d="M1052 214 Q1000 280 960 346" stroke="#fff" stroke-width="1.5" fill="none" opacity=".8"/>
+  <rect x="1036" y="94" width="8" height="252" fill="#6B3A22"/><rect x="944" y="216" width="192" height="8" fill="#6B3A22"/>
+
+  <!-- back row -->
+  <g opacity=".9">
+    <use href="#kid" x="260" y="360"/><use href="#kid" x="420" y="360"/><use href="#kid" x="580" y="360"/><use href="#kid" x="740" y="360"/>
+    <use href="#desk" x="340" y="452"/><use href="#desk" x="660" y="452"/>
+  </g>
+
+  <!-- front row: one child turns to the window -->
+  <use href="#kid" x="200" y="470"/><use href="#kid" x="380" y="470"/><use href="#kid" x="560" y="470"/>
+  <g transform="translate(760,470)">
+    <rect x="-30" y="40" width="60" height="70" rx="14" fill="#C8402F"/>
+    <rect x="-6" y="28" width="12" height="16" fill="#B87A52"/>
+    <circle cx="6" cy="12" r="24" fill="#1E120C"/>
+    <path d="M14,6 Q30,0 30,16 Q30,30 18,30 Z" fill="#B87A52"/>
+    <circle cx="25" cy="13" r="2.5" fill="#1E120C"/>
+    <path d="M-20,8 Q-30,40 -18,50" stroke="#1E120C" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <circle cx="-12" cy="-4" r="5" fill="#E8433A"/>
+  </g>
+  <use href="#desk" x="290" y="572"/><use href="#desk" x="660" y="572"/>
+  <!-- the curious child's thought -->
+  <path d="M800 455 q8 -14 20 -20" stroke="#F6B82A" stroke-width="4" fill="none" stroke-linecap="round" stroke-dasharray="2 10"/>
+  <text x="830" y="438" font-family="Kalam, 'Comic Sans MS', cursive" font-size="34" fill="#C8402F">?</text>
+</svg>
