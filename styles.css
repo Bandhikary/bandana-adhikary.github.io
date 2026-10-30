@@ -908,3 +908,6 @@ body { background: linear-gradient(180deg, var(--bg) 0%, color-mix(in srgb, var(
 .ten-ne { color: #EAF4FD; }
 .ten-photo-ph { background: repeating-linear-gradient(135deg, rgba(255,255,255,.08) 0 14px, transparent 14px 28px), rgba(20, 60, 110, .25); }
 .ten .btn { color: #1F5A9A; }
+
+.photo-frame img { object-position: 50% 20%; }
+.photo-frame img { height: auto; aspect-ratio: 4 / 5; }
