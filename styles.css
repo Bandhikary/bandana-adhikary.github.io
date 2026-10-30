@@ -969,3 +969,8 @@ body { background: linear-gradient(180deg, var(--bg) 0%, color-mix(in srgb, var(
 .bpost-foot .bpost-date { margin: 0; }
 .bpost-foot .bpost-more { align-self: auto; margin: 0; }
 .bpost-body { gap: 4px; padding-top: 18px; padding-bottom: 16px; }
+
+/* Paintings: square tiles so real (square) paintings aren't cropped */
+.paint-ph, .painting-frame img { aspect-ratio: 1 / 1; }
+.lb-art img { aspect-ratio: auto; width: auto; max-width: 100%; height: auto; max-height: 74vh; object-fit: contain; }
+.lb-meta:empty { display: none; }
