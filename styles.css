@@ -937,3 +937,8 @@ body { background: linear-gradient(180deg, var(--bg) 0%, color-mix(in srgb, var(
 .about { grid-template-columns: 380px 1fr; }
 .about .photo-frame img { object-fit: cover; object-position: 50% 30%; }
 @media (max-width: 900px) { .about { grid-template-columns: 300px 1fr; } }
+
+/* keep contact details on one line */
+.bcard-links span { overflow-wrap: normal; white-space: nowrap; font-size: clamp(.78rem, 1.6vw, .9rem); }
+.bcard { grid-template-columns: 1fr auto; }
+@media (max-width: 560px) { .bcard { grid-template-columns: 1fr; } }
