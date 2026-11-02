@@ -935,7 +935,9 @@ body { background: linear-gradient(180deg, var(--bg) 0%, color-mix(in srgb, var(
 
 /* About: broader photo */
 .about { grid-template-columns: 380px 1fr; }
-.about .photo-frame { aspect-ratio: 614 / 626; align-self: start; }
+.about p { font-size: 1.35rem; line-height: 1.75; }
+.about p:last-child { margin-bottom: 0; }
+@media (min-width: 721px) { .about .photo-frame { aspect-ratio: auto; align-self: stretch; } }
 .about .photo-frame img { object-fit: cover; object-position: 50% 0%; }
 @media (max-width: 900px) { .about { grid-template-columns: 300px 1fr; } }
 
