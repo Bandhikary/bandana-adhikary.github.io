@@ -986,3 +986,10 @@ body { background: linear-gradient(180deg, var(--bg) 0%, color-mix(in srgb, var(
 /* Show each painting whole inside its square frame (portrait or landscape) */
 .painting-frame img { object-fit: contain; background: #FFFDF8; }
 .lb-desc:empty { display: none; }
+
+/* About on phones: photo above text, natural shape */
+@media (max-width: 720px) {
+  .about { grid-template-columns: 1fr; }
+  .about .photo-frame { align-self: start; }
+  .about p { font-size: 1.15rem; }
+}
