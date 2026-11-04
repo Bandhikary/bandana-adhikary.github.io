@@ -998,3 +998,8 @@ body { background: linear-gradient(180deg, var(--bg) 0%, color-mix(in srgb, var(
 .about p { font-family: 'Kalam', cursive; font-size: 1.4rem; line-height: 1.6; }
 @media (min-width: 721px) { .about .photo-frame { aspect-ratio: 614 / 626; align-self: start; } }
 @media (max-width: 720px) { .about p { font-size: 1.2rem; } }
+
+/* TEN: logo beside the heading instead of a watermark behind the text */
+.ten-head { justify-content: space-between; }
+.ten-head .ten-logo { order: 2; position: static; inset: auto; transform: none; width: 130px; height: auto; opacity: 1; z-index: auto; filter: drop-shadow(0 2px 6px rgba(20, 50, 90, .3)); }
+@media (max-width: 720px) { .ten-head .ten-logo { width: 84px; } }
