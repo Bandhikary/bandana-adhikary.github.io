@@ -994,8 +994,8 @@ body { background: linear-gradient(180deg, var(--bg) 0%, color-mix(in srgb, var(
   .about p { font-size: 1.15rem; }
 }
 
-/* About: handwriting paragraph, a little shorter than the photo */
-.about p { font-family: 'Kalam', cursive; font-size: 1.4rem; line-height: 1.6; }
+/* About: paragraph in the site font, a little shorter than the photo */
+.about p { font-size: 1.3rem; line-height: 1.7; }
 @media (min-width: 721px) { .about .photo-frame { aspect-ratio: 614 / 626; align-self: start; } }
 @media (max-width: 720px) { .about p { font-size: 1.2rem; } }
 
